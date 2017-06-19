@@ -1,6 +1,6 @@
-FROM thumbsup-gallery/alpine-tools
+FROM thumbsupgalleries/runtime:alpine
 
-# build tools for native dependencies
+# do we need build tools for native dependencies?
 # RUN apk add --update make gcc g++ python git
 
 # install thumbsup
