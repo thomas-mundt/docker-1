@@ -1,21 +1,9 @@
-# docker
+# Docker
 
-> Docker image for `thumbsup`
+> Docker images for `thumbsup`
 
-Includes:
+Images are built automatically on DockerHub, and published to
+https://hub.docker.com/r/thumbsupgalleries.
 
-- [thumbsup](https://www.npmjs.com/package/thumbsup) npm package
-- ffmpeg
-- graphicsmagick
-
-## Building the image
-
-```bash
-./build
-# Successfully built thumbsup/thumbsup
-docker push thumbsup/thumbsup
-```
-
-## TODO
-
-Provide different images for the different `npm` versions.
+See the individual folders for details of the images,
+and the website for the full documentation: https://thumbsup.github.io.

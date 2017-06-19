@@ -1,6 +1,5 @@
 #!/bin/bash -e
 
-IMAGE=thumbsup/thumbsup
-
+IMAGE=thumbsupgalleries/thumbsup
 docker build -t ${IMAGE} .
 echo "Successfully built ${IMAGE}"
