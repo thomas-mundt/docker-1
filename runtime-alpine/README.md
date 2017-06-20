@@ -1,4 +1,4 @@
-# thumbsupgalleries/runtime:alpine
+# thumbsupgallery/runtime:alpine
 
 Base image for [thumbsup](https://www.npmjs.com/package/thumbsup).
 Includes all required runtime dependencies, but not `thumbsup` itself.

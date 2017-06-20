@@ -1,4 +1,4 @@
-FROM thumbsupgalleries/runtime:alpine
+FROM thumbsupgallery/runtime:alpine
 
 # do we need build tools for native dependencies?
 # RUN apk add --update make gcc g++ python git

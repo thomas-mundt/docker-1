@@ -1,5 +1,5 @@
 #!/bin/bash -e
 
-IMAGE=thumbsupgalleries/runtime:alpine
+IMAGE=thumbsupgallery/runtime:alpine
 docker build -t ${IMAGE} .
 echo "Successfully built ${IMAGE}"
