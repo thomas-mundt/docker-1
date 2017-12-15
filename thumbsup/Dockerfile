@@ -19,6 +19,11 @@ RUN npm install thumbsup@$(cat VERSION)
 
 FROM thumbsupgallery/runtime:alpine
 
+# Use tini as an init process
+# to ensure all child processes (ffmpeg...) are always terminated properly
+RUN apk add --update tini
+ENTRYPOINT ["tini", "-g", "--"]
+
 # Copy the thumbsup files to the new image
 COPY --from=build /thumbsup /thumbsup
 RUN ln -s /thumbsup/node_modules/.bin/thumbsup /usr/local/bin/thumbsup
