@@ -8,5 +8,6 @@ Includes all required runtime dependencies, but not `thumbsup` itself.
 - Exiftool
 - FFMPEG
 - GraphicsMagick
+- Gifsicle
 
 Also used as a convenient base image to run integration tests.
